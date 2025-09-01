@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Galeria de Imagens</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Galeria de Imagens Interativa</h2>
+  <p class="textoCentralizado">Clique em uma miniatura para exibir a imagem ou use os botões para navegar.</p>
+
+  <div class="galeria">
+    <button class="seta" id="prev">&#10094;</button>
+
+    <div class="slide" id="slide">
+      <img src="imagem1.jpg" alt="Imagem" id="imagem-atual">
+    </div>
+
+    <button class="seta" id="next">&#10095;</button>
+  </div>
+
+  <div class="botoes">
+    <button class="btn-imagem" id="btn-imagem1" onclick="selecionarImagem(0)"></button>
+    <button class="btn-imagem" id="btn-imagem2" onclick="selecionarImagem(1)"></button>
+    <button class="btn-imagem" id="btn-imagem3" onclick="selecionarImagem(2)"></button>
+    <button class="btn-imagem" id="btn-imagem4" onclick="selecionarImagem(3)"></button>
+    <button class="btn-imagem" id="btn-imagem5" onclick="selecionarImagem(4)"></button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

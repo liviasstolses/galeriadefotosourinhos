@@ -1,0 +1,87 @@
+/* Adicionando estilo para a galeria */
+body {
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  text-align: center;
+}
+
+.galeria {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.seta {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.seta:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.slide {
+  width: 500px;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+}
+
+#imagem-atual {
+  width: 100%;
+  height: auto;
+}
+
+.botoes {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.btn-imagem {
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+  border: 2px solid #ccc;
+  background-color: #eee;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.btn-imagem:hover {
+  transform: scale(1.1);
+}
+
+/* Definir imagens de fundo para os botões */
+#btn-imagem1 {
+  background-image: url('imagem1.jpg');
+}
+
+#btn-imagem2 {
+  background-image: url('imagem2.jpg');
+}
+
+#btn-imagem3 {
+  background-image: url('imagem3.jpg');
+}
+
+#btn-imagem4 {
+  background-image: url('imagem4.jpg');
+}
+
+#btn-imagem5 {
+  background-image: url('imagem5.jpg');
+}
+
+.textoCentralizado {
+  text-align: center;
+}
